@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Along</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="scoreCard">
+      <img
+        src="https://cdn-icons-png.flaticon.com/512/847/847969.png"
+        alt="Score Icon"
+      />
+      <h1><span id="p1score">0</span> to <span id="p2score">0</span></h1>
+      <p>Use the buttons below to Keep Score</p>
+
+      <div id="btn-group">
+        <button id="p1btn">+1 Player One</button>
+        <button id="p2btn">+1 Player Two</button>
+      </div>
+
+      <h3>Playing to</h3>
+      <select name="" id="numSelect">
+        <option value="3">3</option>
+        <option value="5">5</option>
+        <option value="10">10</option>
+        <option value="15">15</option>
+      </select>
+
+      <button id="reset">Reset</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
